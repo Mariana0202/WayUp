@@ -1,0 +1,138 @@
+body{
+	font-family: 'Ubuntu', sans-serif;
+	color: #201b2d;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+div, p, input, button, form, span, a, ul, li{
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: 700;
+	margin: 0;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.header{
+	background: -webkit-linear-gradient(135deg, rgb(78, 191, 254), rgb(55, 143, 218));
+	background: -moz-linear-gradient(135deg, rgb(78, 191, 254), rgb(55, 143, 218));
+	background: linear-gradient(135deg, rgb(78, 191, 254), rgb(55, 143, 218));
+	padding-bottom: 140px;
+}
+.logo{
+	padding-top: 70px;
+	cursor:pointer;
+}
+.top{
+	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+.total{
+
+}
+.title{
+	padding-top: 155px;
+ 	font-size: 37px;
+ 	width: 485px;
+}
+.title span{
+	font-size: 59px;
+}
+.text{
+	margin: 45px 0px;
+	width: 400px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+
+}
+.btn{
+	font-family: 'Montserrat', sans-serif;
+	background: #ffd429;
+	color: #2e2a1b;
+	font-weight: 900;
+	display: block;
+	padding: 20px 0px;
+	width: 225px;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+.btn:hover{
+	background: #dfb920;
+}
+p {
+	line-height: 1.50em;
+}
+.travel{
+	padding-top: 35px;
+}
+.goal{
+	padding-top: 118px;
+	padding-bottom: 120px;
+	text-align: center;
+}
+.heading{
+	font-size: 30px;
+}
+.offers{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+}
+.offer{
+	width: 275px;
+	background: url('../img/icon1.jpg') no-repeat top center;
+	padding-top: 80px;
+}
+.offer-learn{
+	font-size: 19px;
+}
+.offer-text{
+	margin-top: 10px;
+}
+.offer-travel{
+	background: url('../img/icon2.jpg') no-repeat top center;
+}
+.offer-values{
+	width: 290px;
+	background: url('../img/icon3.jpg') no-repeat top center;
+}
+.ticket{
+	background: #ecf3f8;
+	padding: 100px 0px;
+	text-align: center;
+}
+.form{
+	margin-top: 65px;
+	margin-left: 415px;
+}
+.name{
+	display: block;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	height: 45px;
+	padding-left: 25px;
+	width: 340px;
+	margin-bottom: 15px;
+	color: #9d9ba3;
+}
+.btn-form{
+	border: 0;
+	cursor: pointer;
+	width: 340px;
+}
+.footer{
+	background: #164d7a;
+	padding: 65px 0px;
+}
+.credits{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	background: #164d7a;
+	color: #ffffff;
+	margin-left: 415px;
+}
